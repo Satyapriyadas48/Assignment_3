@@ -1,0 +1,16 @@
+com\example\demo\domain\Telemetry.class
+com\example\demo\domain\Company.class
+com\example\demo\FeignClientApplication.class
+com\example\demo\domain\Payload.class
+com\example\demo\domain\Example.class
+com\example\demo\domain\Links.class
+com\example\demo\domain\Core.class
+com\example\demo\client\CompanyApi.class
+com\example\demo\domain\Headquarters.class
+com\example\demo\domain\SecondStage.class
+com\example\demo\domain\FirstStage.class
+com\example\demo\domain\LaunchSite.class
+com\example\demo\client\RocketApi.class
+com\example\demo\domain\Reuse.class
+com\example\demo\ApiController.class
+com\example\demo\domain\Rocket.class
