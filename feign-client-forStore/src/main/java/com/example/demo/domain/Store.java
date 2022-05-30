@@ -5,6 +5,7 @@ public class Store {
 	private String storeName;
 	private AddressLane addressLine_1;
 	private AddressLane addressLine_2;
+	private int pinCode;
 	private Long Phone;
 	private String email;
 	
