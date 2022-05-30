@@ -27,7 +27,7 @@ public class ApiController {
     }
     
 
-    @RequestMapping(value = "/pinCode}")
+    @RequestMapping(value = "/{pinCode}")
     public ResponseEntity<?> allStoreInfo(){
         Store store = storeApi.getAllStore();
         return new ResponseEntity<>(store,HttpStatus.OK);
