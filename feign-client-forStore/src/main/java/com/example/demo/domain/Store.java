@@ -3,11 +3,8 @@ package com.example.demo.domain;
 public class Store {
 	private String storeId;
 	private String storeName;
-	private String addressLine_1;
-	private String addressLine_2;
-	private String state;
-	private String country;
-	private int pinCode;
+	private AddressLane addressLine_1;
+	private AddressLane addressLine_2;
 	private Long Phone;
 	private String email;
 	
@@ -35,24 +32,7 @@ public class Store {
 	public void setAddressLine_2(String addressLine_2) {
 		this.addressLine_2 = addressLine_2;
 	}
-	public String getState() {
-		return state;
-	}
-	public void setState(String state) {
-		this.state = state;
-	}
-	public String getCountry() {
-		return country;
-	}
-	public void setCountry(String country) {
-		this.country = country;
-	}
-	public int getPinCode() {
-		return pinCode;
-	}
-	public void setPinCode(int pinCode) {
-		this.pinCode = pinCode;
-	}
+
 	public Long getPhone() {
 		return Phone;
 	}
@@ -68,8 +48,7 @@ public class Store {
 	@Override
 	public String toString() {
 		return "Store [storeId=" + storeId + ", storeName=" + storeName + ", addressLine_1=" + addressLine_1
-				+ ", addressLine_2=" + addressLine_2 + ", state=" + state + ", country=" + country + ", pinCode="
-				+ pinCode + ", Phone=" + Phone + ", email=" + email + "]";
+				+ ", addressLine_2=" + addressLine_2 + ", Phone=" + Phone + ", email=" + email + "]";
 	}
 	
 	
